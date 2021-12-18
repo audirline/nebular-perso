@@ -1,0 +1,7 @@
+applications:
+- name: nebular-angular
+  memory: 1G 
+  path: dist/playground
+  random-route: false
+  buildpacks:
+  - staticfile_buildpack
